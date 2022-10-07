@@ -15,7 +15,7 @@ print("----")
 html=list(soup.children)[2]
 
 
-print("This is all HTML kids")
+print("List HTML children: ")
 print(list(html.children))
 print("-------------------------")
 head=list(html.children)[1]
